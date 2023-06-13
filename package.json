@@ -1,0 +1,14 @@
+{
+  "devDependencies": {
+    "tailwindcss": "^3.3.2",
+    "tailwindcss-animated": "^1.0.1",
+    "tailwindcss-writing-mode": "^1.0.0"
+  },
+  "dependencies": {
+    "daisyui": "^2.51.6"
+  },
+  "scripts": {
+    "dev": "npx tailwindcss --input src/input.css --output dist/output.css --watch",
+    "build": "npx tailwindcss --input src/input.css --output dist/output.css --minify"
+  }
+}
